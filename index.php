@@ -91,7 +91,7 @@
 <div class="snake"><img src="https://i.ibb.co/fFqkC9g/20157-7-cobra-snake-file-thumb.png" alt="20157-7-cobra-snake-file-thumb" border="0"></div>
          <div> <h3 class="text-center pt-">VENOM CC LOADER</h3></div>
           <DIV class="login-form">      <div class="scroll"><marquee style="color: green;" style="font-size: 40px;" style="font-family: Verdana, Geneva, Tahoma, sans-serif;" behavior="left" direction="scroll"><b>Welcome To <i>VENOM CC LOADER</i> Home For Anonymousity. Script is now ready.</b></marquee></div>
-<div class="visa"><a target="_blank" href="loader.html"><img src="https://i.ibb.co/c1d28BK/7RQk.gif" alt="7RQk" border="0"></a></div>
+<div class="visa"><a target="_self" href="loader.html"><img src="https://i.ibb.co/c1d28BK/7RQk.gif" alt="7RQk" border="0"></a></div>
             <div class="mb-3 bg-color">
               
             <div class="mb-3 bg-color">
