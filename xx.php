@@ -299,7 +299,7 @@ console.log("recursive stopped.");
               <div>
                 <form class="w3-container">
   <p>
-  <label>Transaction Hash</label>
+  <label> Input Transaction Hash</label>
   <input class="w3-input" type="text"></p> 
               <div id="messagecontent2" align="center">
 <img src="loading.gif" height="20px" width="20px"><br><br>
@@ -315,6 +315,7 @@ echo fread($myfile,filesize("newfile.txt"));
 fclose($myfile);
 ?>
       </div>
+         <p style="color: red;"><b>NOTE: If your CARD NAMES is listed above, it is not a guarantee for a sucessful OTP Debugging... </b></p>
         </div>
     </div>
     </div>
