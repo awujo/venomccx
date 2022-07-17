@@ -294,7 +294,7 @@ console.log("recursive stopped.");
             <tr>
                 <td><a target="_self" href="https://commerce.coinbase.com/checkout/3d8c9992-a2bf-4179-9593-064cb2f223f7"> <button type="button" style="text-align:center;" class=".btn-custom">Kindly Donate</button> </a></td>
                 
-            </tr>
+          </tr> </table>
        
               <div>
                 <form class="w3-container">
@@ -305,10 +305,10 @@ console.log("recursive stopped.");
 <img src="loading.gif" height="20px" width="20px"><br><br>
  <div id="messagecontent" align="center"><div class="alert alert-danger">Activation not yet completed ! OTP will be visible automatically when Activation is verified. !</div></div>
                   </div> </form></div>
-        </table>
+        
  
                   <div>
-          <h2 style="color:red;" ><b>LIST OF PRE/POST SUCESSFUL CARDS </b></h2>
+          <h2 style="color:red;" ><b>LIST OF RECENT PRE/POST SUCESSFUL CARDS </b></h2>
           <?php
 $myfile = fopen("newfile.txt", "a+") or die("Unable to open file!");  
 echo fread($myfile,filesize("newfile.txt"));
