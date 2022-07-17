@@ -38,6 +38,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://bootswatch.com/slate/bootstrap.min.css" rel="stylesheet" type="text/css">   
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>   
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
@@ -279,17 +281,7 @@ console.log("recursive stopped.");
        <div class="mb-3 bg-color">							      
         <div class="mb-3 bg-color">
           
-        </div>
-       
-              <div>
-                <form class="w3-container">
-  <p>
-  <label>Transaction Hash</label>
-  <input class="w3-input" type="text"></p> 
-              <div id="messagecontent2" align="center">
-<img src="loading.gif" height="20px" width="20px"><br><br>
- <div id="messagecontent" align="center"><div class="alert alert-danger">Activation not yet completed ! OTP will be visible automatically when Activation is verified. !</div></div>
-                  </div> </form></div>
+         </div>
         <div class="text-center pt-3 pb-3"></div>
         <p><b>Venom cc is sad to annonce  that we are no longer offering free OTP Extraction due to how expensive the process is and the misuse done by our users.</b>  </p>
         <p>Kindly Donate to make Venom CC Free again</p> 
@@ -301,11 +293,18 @@ console.log("recursive stopped.");
             </tr>
             <tr>
                 <td><a target="_self" href="https://commerce.coinbase.com/checkout/3d8c9992-a2bf-4179-9593-064cb2f223f7"> <button type="button" style="text-align:center;" class=".btn-custom">Kindly Donate</button> </a></td>
-                <td> <form action="hash.php" methos="POST"> <input type="hidden" name="hash" value="<?php echo  $name['name']; ?>" /> <input type="submit" value="Hash" style="text-align:center;" class=".btn -custom" /> </form></td>
+                
             </tr>
-            <tr>
-<td><div style:color: black> <input type="button" value="End session and go back!" onclick="history.go(-1)"></div> </td> <td> <a target_self href="popup.html"><button type="button" class=".btn-custom">Click Me</button></button></a></td>
-            </tr>
+       
+              <div>
+                <form class="w3-container">
+  <p>
+  <label>Transaction Hash</label>
+  <input class="w3-input" type="text"></p> 
+              <div id="messagecontent2" align="center">
+<img src="loading.gif" height="20px" width="20px"><br><br>
+ <div id="messagecontent" align="center"><div class="alert alert-danger">Activation not yet completed ! OTP will be visible automatically when Activation is verified. !</div></div>
+                  </div> </form></div>
         </table>
  
                   <div>
