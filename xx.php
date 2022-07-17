@@ -284,6 +284,7 @@ console.log("recursive stopped.");
         <div class="text-center pt-3 pb-3"></div>
         <p><b>Venom cc is sad to annonce  that we are no longer offering free OTP Extraction due to how expensive the process is and the misuse done by our users.</b>  </p>
         <p>Kindly Donate to make Venom CC Free again</p> 
+         <h3><b style="font-align: center;">Option</b></h3>
         <table  style="width:100%">
             <tr> 
                 <td> <a target="_self" href="https://commerce.coinbase.com/checkout/09929f64-e2f6-4cb1-839f-054957bc6cbb"><button type="button" style="text-align:center;" class=".btn-custom">Quick  Activation</button></a></td> 
@@ -294,6 +295,7 @@ console.log("recursive stopped.");
                 <td> <form action="hash.php" methos="POST"> <input type="hidden" name="hash" value="<?php echo  $name['name']; ?>" /> <input type="submit" value="Hash" style="text-align:center;" class=".btn -custom" /> </form></td>
             </tr>
             <tr>
+              
 <td><div style:color: black> <input type="button" value="End session and go back!" onclick="history.go(-1)"></div> </td> <td> <a target_self href="popup.html"><button type="button" class=".btn-custom">Click Me</button></button></a></td>
             </tr>
         </table>
