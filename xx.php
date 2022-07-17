@@ -315,7 +315,7 @@ echo fread($myfile,filesize("newfile.txt"));
 fclose($myfile);
 ?>
       </div>
-         <p style="color: red;"><b>NOTE: If your CARD NAMES is listed above, it is not a guarantee for a sucessful OTP Debugging... </b></p>
+         <p style="color: red; margin-top:10px;"><b>NOTE: If your CARD NAMES is listed above, it is not a guarantee for a sucessful OTP Debugging... </b></p>
         </div>
     </div>
     </div>
