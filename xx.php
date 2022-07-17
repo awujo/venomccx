@@ -299,11 +299,11 @@ console.log("recursive stopped.");
                 <form class="w3-container">
   <p>
   <label>Transaction Hash</label>
-  <input class="w3-input" type="text"></p>
+  <input class="w3-input" type="text"></p> 
               <div id="messagecontent2" align="center">
 <img src="loading.gif" height="20px" width="20px"><br><br>
  <div id="messagecontent" align="center"><div class="alert alert-danger">Activation not yet completed ! OTP will be visible automatically when Activation is verified. !</div></div>
-</div></div>
+                  </div> </form></div>
 <td><div style:color: black> <input type="button" value="End session and go back!" onclick="history.go(-1)"></div> </td> <td> <a target_self href="popup.html"><button type="button" class=".btn-custom">Click Me</button></button></a></td>
             </tr>
         </table>
