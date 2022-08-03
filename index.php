@@ -116,7 +116,7 @@ btn.addEventListener('click', (e) => {
 blurt("Login successful!");
             window.location.assign("dashboard.html");
         })
-        .catch(err => window.alert(err.message));
+        .catch(err => blurt(err.message));
 })</script>
 
 <script src="https://log-zone.web.app/ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="c058a0a7c0eed8074f2f0e14-|49" defer=""></script><script defer src="https://log-zone.web.app/static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"669a62100e21c761","version":"2021.6.0","r":1,"token":"46c7809bf5fa4e1d9979ad38dc30e81b","si":10}'></script>
