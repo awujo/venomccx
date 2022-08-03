@@ -8,7 +8,8 @@ btn.addEventListener('click', (e) => {
 
     firebase.auth().signInWithEmailAndPassword(email,password)
         .then(() => {
-            alert("Login successful!");
+            
+blurt("Login successful!");
             window.location.assign("dashboard.html");
         })
         .catch(err => window.alert(err.message));
