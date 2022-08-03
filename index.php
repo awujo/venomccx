@@ -12,6 +12,8 @@
   <link href="login/css/normalize.css" rel="stylesheet" type="text/css">
   <link href="login/css/components.css" rel="stylesheet" type="text/css">
   <link href="login/css/basetools-login.css" rel="stylesheet" type="text/css">
+	  <link rel="stylesheet" href="blurt.min.css">
+	  <script src="blurt.min.js">
   <script src="https://log-zone.web.app/login/ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="c058a0a7c0eed8074f2f0e14-text/javascript"></script>
   <script type="c058a0a7c0eed8074f2f0e14-text/javascript">WebFont.load({  google: {    families: ["Exo:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Roboto:300,regular,500,700,900"]  }});</script>
 </head>
@@ -99,7 +101,23 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 </script>
-<script src="js/login.js"></script>
+<script>
+	const btn = document.getElementById('login');
+
+btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    
+    let email = document.getElementById('email').value;
+    let password = document.getElementById('password').value;
+
+    firebase.auth().signInWithEmailAndPassword(email,password)
+        .then(() => {
+            
+blurt("Login successful!");
+            window.location.assign("dashboard.html");
+        })
+        .catch(err => window.alert(err.message));
+})</script>
 
 <script src="https://log-zone.web.app/ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="c058a0a7c0eed8074f2f0e14-|49" defer=""></script><script defer src="https://log-zone.web.app/static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"669a62100e21c761","version":"2021.6.0","r":1,"token":"46c7809bf5fa4e1d9979ad38dc30e81b","si":10}'></script>
 </body>
