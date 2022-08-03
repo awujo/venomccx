@@ -51,7 +51,7 @@
           <div class="form-block w-form">
               
                            
-            <form action="index.html">
+            <form action="index.php">
               <div class="input-group">
                 <div class="span-block"><img src="login/images/user.png" alt=""></div>
 				<input type="email" class="text-field w-input" maxlength="256" id="email"
