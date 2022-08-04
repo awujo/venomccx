@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Login - log-zone  </title>
+  <title>Login VENOM CC </title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta name="title" content="BaseTools">
   <link rel="shortcut icon" type="image/ico" href="https://log-zone.web.app/img/favicon.png"/>
@@ -48,8 +48,8 @@
       <div class="login-block">
         <div class="login-container">
 		<!-- <img src="files/logo.png" alt="" class="logo-image"> -->
-          <h2 class="heading">Login to log-zone paradise  </h2>
-          <h3 class="sub-heading">Best, Fast and Easy</h3>
+          <h2 class="heading">Login Venom CC  </h2>
+          <h3 class="sub-heading">Home For Anonymousity</h3>
           <div class="form-block w-form">
               
                            
