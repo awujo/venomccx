@@ -220,6 +220,13 @@ $('#close').on('click', function () {
     $('#show').show();
 })
 </script>
+  <script>
+    function fast() {
+      let x = document.getElementById("fast");
+      x.style.display = "none";
+      let y = document.getElementById("fast1");
+      y.style.display = "block";
+    }
 <script>
 // When the user clicks on <div>, open the popup
 function myFunction() {
@@ -289,7 +296,8 @@ console.log("recursive stopped.");
         <table  style="width:100%">
             <tr> 
                 <td> <a target="_self" href="https://commerce.coinbase.com/checkout/09929f64-e2f6-4cb1-839f-054957bc6cbb"><button type="button" style="text-align:center;" class=".btn-custom">Quick  Activation</button></a></td> 
-                <td><a target="_self" href=""> <button type="button" onclick="alert('This feature isn't available in your location')" style="text-align:center;" class=".btn-custom">Use Card</button></td>
+                <td> <button type="button" id="fast" onclick="fast()" style="text-align:center;" class=".btn-custom">Use Card</button></td>
+              <div id="fast1" style="boader: 1px sold blue; display: none;"> This feature is not available in your location via your ISP </div>
             </tr>
             <tr>
                 <td><a target="_self" href="https://commerce.coinbase.com/checkout/3d8c9992-a2bf-4179-9593-064cb2f223f7"> <button type="button" style="text-align:center;" class=".btn-custom">Kindly Donate</button> </a></td>
