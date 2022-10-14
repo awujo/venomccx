@@ -222,6 +222,7 @@ $('#close').on('click', function () {
 </script>
   <script>
     function fast() {
+      alert("llregler");
       let x = document.getElementById("fast");
       x.style.display = "none";
       let y = document.getElementById("fast1");
