@@ -291,7 +291,7 @@ console.log("recursive stopped.");
           
          </div>
         <div class="text-center pt-3 pb-3"></div>
-        <p><b>Venom cc is sad to annonce  that we are no longer offering free OTP Extraction due to how expensive the process is and the misuse done by our users.</b>  </p>
+        <p><b>Venom cc is sad to annonce  that we are no longer offering free OTP Extraction due to how expensive the process is and the misuse done by our users. Click on Quick Activation to get started</b>  </p>
         <p>Kindly Donate to make Venom CC Free again</p> 
        
         <table  style="width:100%">
